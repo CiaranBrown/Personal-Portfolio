@@ -1,0 +1,92 @@
+html, body {
+    background: #265FD9;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, p {
+    color: #eee;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navigation Bar */
+
+nav {
+    background: #0E78F1;
+    border-bottom: 2px white solid;
+    display: flex;
+    padding: 0.9% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: #eee;
+    margin: 20px;
+    margin-left: 2px;
+    padding: 10px, 10px;
+} 
+
+.nav-items ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+    margin: 5px;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-items ul li a:hover {
+    color: #D9A026;
+}
+
+.nav-items ul li a:active {
+    color: #D9A026;
+    border: 2px #D9A026 solid;
+}
+
+/* About Me Section */
+
+.about-image {
+    width: 400px;
+    border-radius: 200px;
+    border: #eee 7px solid;
+    margin-left: 120px;
+    margin-top: 60px;
+} 
+
+.about-me {
+    display: inline-block;
+    float: right;
+    flex-direction: column;
+}
+
+.about-me h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.about-me p {
+    padding: 30px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+} 
